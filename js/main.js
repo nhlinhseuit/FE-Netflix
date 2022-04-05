@@ -1,1 +1,1 @@
-window.location.href = "./page/login.html"
+window.location.href = "./pages/login.html"
