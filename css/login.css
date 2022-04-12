@@ -179,4 +179,47 @@
             transform: translateX(0px);
   }
 }
+
+@media only screen and (max-width: 1100px) {
+  .login {
+    background-image: url(https://genk.mediacdn.vn/139269124445442048/2021/12/23/26990980413790933458516078869869368984213137n-16402267344512075604121.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .login__form {
+    padding: 0 20px;
+  }
+  .login__form__left a {
+    width: 300px !important;
+  }
+  .login iframe {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .login__form {
+    padding: 0 20px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .login__form__left {
+    border-right: none;
+    padding: 0;
+  }
+  .login__form__left a {
+    width: 300px !important;
+  }
+  .login__form__right {
+    border-top: 2px solid rgba(241, 241, 241, 0.25);
+    margin: 0;
+    padding: 0;
+  }
+  .login__form__right h3 {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
 /*# sourceMappingURL=login.css.map */

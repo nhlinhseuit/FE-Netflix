@@ -8,6 +8,7 @@
     <title>Sign up</title>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/signup.css">
 </head>
 <body>
     <div class="login">
@@ -21,11 +22,11 @@
 
             <div class="login__form__right">
                 <h3>Sign up a new account</h3>
-                <input type="text" placeholder="Email">
-                <input type="text" placeholder="Username">
-                <input type="password" placeholder="Password">
-                <input type="password" placeholder="Re-pPassword">
-                <button>Sign up</button>
+                <input type="text" placeholder="Email" id="txt-email"   >
+                <input type="text" placeholder="Username" id="txt-username">
+                <input type="password" placeholder="Password" id="txt-password">
+                <input type="password" placeholder="Re-Password" id="txt-repassword">
+                <button id="btn-signup">Sign up</button>
                 <a href="./login.html">Already has an account? Go to Log In page</a>
             </div>
 
@@ -44,6 +45,10 @@
         
     </div>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.26.1/axios.min.js" integrity="sha512-bPh3uwgU5qEMipS/VOmRqynnMXGGSRv+72H/N260MQeXZIK4PG48401Bsby9Nq5P5fz7hy5UGNmC/W1Z51h2GQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="https://player.vimeo.com/api/player.js"></script>
+    <script src="../js/signup.js"></script>
+    
 </body>
 </html>

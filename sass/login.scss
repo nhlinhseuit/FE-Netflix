@@ -132,3 +132,52 @@
         transform: translateX(0px);
     }
  }
+
+ @media only screen and (max-width: 1100px) {
+     .login {
+         background-image: url(https://genk.mediacdn.vn/139269124445442048/2021/12/23/26990980413790933458516078869869368984213137n-16402267344512075604121.jpg);
+         background-size: cover;
+         background-position: center;
+         &__form {
+             padding: 0 20px;
+             &__left {
+                 a {
+                     width: 300px !important;
+                 }
+             }
+        }   
+
+        iframe {
+            display: none;
+        }
+             
+     }
+ }
+
+ @media only screen and (max-width: 750px) {
+     .login {
+         &__form {
+             padding: 0 20px;
+             flex-direction: column;
+             //flex column: content hang` doc
+             &__left {
+                border-right: none;
+                padding: 0;
+                a {
+                    width: 300px !important;
+                }
+             }
+
+             &__right {
+                 border-top: 2px solid rgba(241, 241, 241, 0.25);
+                 margin: 0;
+                 padding: 0;
+                h3 {
+                    text-align: center;
+                    margin-top: 20px;
+                }
+
+             }
+         }
+     }
+ }
